@@ -39,7 +39,7 @@ a,
 
 button {
     /* stylise the button with a modern look with shadow / rounded corners / padding */
-    background-color: hsl(0, 27%, 51%);
+    background-color: hsl(0, 82%, 58%);
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 25px hsla(160, 100%, 37%, 0.5);
