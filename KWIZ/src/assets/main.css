@@ -1,4 +1,13 @@
 @import './base.css';
+@font-face {
+    font-family: "DiloWorld";
+    src: url("DiloWorld.ttf");
+}
+
+@font-face {
+    font-family: "CreamySugar";
+    src: url("CreamySugar.ttf");
+}
 
 #app {
   max-width: 1280px;
@@ -10,6 +19,8 @@
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 a,
@@ -24,4 +35,27 @@ a,
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
+}
+
+button {
+    /* stylise the button with a modern look with shadow / rounded corners / padding */
+    background-color: hsl(0, 27%, 51%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 25px hsla(160, 100%, 37%, 0.5);
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: "CreamySugar", serif;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+button:hover {
+    /* when hovering over the button, make it slightly darker */
+    background-color: hsla(0, 0%, 0%, 0.8);
+    transform: scale(1.2);
+    rotate: -7deg;
 }
