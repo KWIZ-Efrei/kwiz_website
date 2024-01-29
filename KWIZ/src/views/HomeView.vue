@@ -6,12 +6,12 @@ import router from "@/router/index.js";
   <main>
     <div class="center-screen">
       <div class="title">KWIZ</div>
-      <button @click="router.push('/game')">Kwiz me !</button>
+      <button @click="router.push('/game')">Kwiz me</button>
     </div>
   </main>
 </template>
 
-<style>
+<style scoped>
   .title {
     font-weight: bolder;
     font-size: 10rem;

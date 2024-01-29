@@ -39,7 +39,7 @@ a,
 
 button {
     /* stylise the button with a modern look with shadow / rounded corners / padding */
-    background-color: hsl(0, 27%, 51%);
+    background-color: hsl(0, 82%, 58%);
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 25px hsla(160, 100%, 37%, 0.5);
@@ -58,4 +58,20 @@ button:hover {
     background-color: hsla(0, 0%, 0%, 0.8);
     transform: scale(1.2);
     rotate: -7deg;
+}
+
+.floating-div {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
