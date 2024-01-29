@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import {fetchWrapper} from "@/stores/fetch-wrapper.js";
 
-const baseUrl = `http://localhost:5133/Games`;
+const baseUrl = `http://api.kwiz-game.test/Games`;
 export const useQuestionStore = defineStore({
     id: 'actions',
     state: () => ({
